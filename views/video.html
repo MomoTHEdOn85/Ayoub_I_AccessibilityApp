@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+<head>
+	<meta charset="utf-8" />
+	<title>Video Player with Subtitles - Mozilla</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+ 
+</head>
+<body>
+
+  <header>
+    <h1 class="hidden">Video Site</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/audio">Audio</a></li>
+        <li><a href="/video">Video</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section class="intro">
+    <h2>Video Streaming Page</h2>
+    <br>
+  </section>
+
+  <h4>Show: Office | Episode: "Business School" Season 3, Episode 16</h4>
+  <h4>Link: <a href="https://youtu.be/rAixASB9dEg">Youtube Link</a></h4>
+  <br>
+
+  <section class="videoPage">
+     <!-- Video container  -->
+	  <figure id="videoContainer" data-fullscreen="false">
+	  	<video id="video" controls preload="metadata">
+	  		<source src="images/video.mp4" type="video/mp4">
+	  		<source src="video/sintel-short.webm" type="video/webm">
+	  		<track label="English" kind="subtitles" srclang="en" src="subtitles/office-en.vtt" default>
+	   
+	  </figure>
+  
+    <!-- Transcript container  -->
+    <aside class="transcript collapser">
+      <h2 class="transcript__head">
+        <span>Video Transcript</span>
+        <br>
+        <button class="transcript-toggle">Show full transcript</button>
+      </h2>
+
+      <p><span class="timesheet">[0:00]</span> -Thanks for coming.</p>
+
+      <p><span class="timesheet">[0:02]</span> [ Indistinct conversations ]</p>
+
+      <p><span class="timesheet">[0:16]</span> -Pam-casso!</p>
+
+      
+      <p><span class="timesheet">[0:17]</span> Sorry I'm late. I had to race across town.</p>
+      <p><span class="timesheet">[0:20]</span> -Oh, Michael.</p>
+      <p><span class="timesheet">[0:22]</span> -Wow!</p>
+      <p><span class="timesheet">[0:24]</span> You did these? Freehand?</p>
+      <p><span class="timesheet">[0:27]</span> -Yep.</p>
+      <p><span class="timesheet">[0:27]</span> -My God, these could be tracings.</p>
+      <p><span class="timesheet">[0:31]</span> Oh.</p>
+      <p><span class="timesheet">[0:33]</span> Look at this one.</p>
+      <p><span class="timesheet">[0:35]</span> Wow!</p>
+      <p><span class="timesheet">[0:36]</span> You nailed it.</p>
+      <p><span class="timesheet">[0:42]</span> How much?</p>
+      <p><span class="timesheet">[0:44]</span> -What do you mean?</p>
+      <p><span class="timesheet">[0:46]</span> -I don't see a price.</p>
+      <p><span class="timesheet">[0:49]</span> -Um, you want to buy it?</p>
+      <p><span class="timesheet">[0:52]</span> -Well, yeah.</p>
+      <p><span class="timesheet">[0:53]</span> Yeah, we have to have it for the office.</p>
+      <p><span class="timesheet">[0:56]</span> I mean, there's my window.</p>
+      <p><span class="timesheet">[0:59]</span> And there's my car!</p>
+      <p><span class="timesheet">[1:01]</span> Is that your car?</p>
+      <p><span class="timesheet">[1:03]</span> -Uh-huh.</p>
+      <p><span class="timesheet">[1:05]</span> -Ohh.</p>
+      <p><span class="timesheet">[1:09]</span> That is our building.</p>
+      <p><span class="timesheet">[1:14]</span> And we sell paper.</p>
+      <p><span class="timesheet">[1:22]</span> I'm really proud of you.</p>
+      <p><span class="timesheet">[1:35]</span> -Thank you.</p>
+      <p><span class="timesheet">[1:38]</span> -What?</p>
+      <p><span class="timesheet">[1:41]</span> -Do you have something in your pocket?</p>
+      <p><span class="timesheet">[1:47]</span> -A Chunky.</p>
+      <p><span class="timesheet">[1:53]</span> Do you want half?</p>
+      <p><span class="timesheet">[1:54]</span> -No, thank you. -Okay.</p>
+      <p><span class="timesheet">[1:57]</span> It is a message.</p>
+      <p><span class="timesheet">[2:00]</span> It is an inspiration.</p>
+      <p><span class="timesheet">[2:02]</span> It is a source of beauty.</p>
+      <p><span class="timesheet">[2:06]</span> And without paper, it could not have happened</p>
+      <p><span class="timesheet">[2:13]</span> Unless you had a camera.</p>
+         
+    </aside>
+
+
+  </section>
+
+  
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

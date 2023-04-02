@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://cdn.plyr.io/2.0.15/plyr.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Audio Page</title>
+  </head>
+  <body>
+    <main class="app">
+
+      <header>
+        <h1 class="hidden">Video Site</h1>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/audio">Audio</a></li>
+            <li><a href="/video">Video</a></li>
+          </ul>
+        </nav>
+      </header>
+       
+
+
+         
+      <section class="intro">
+        <h2>Audio Streaming Page</h2>
+      </section>
+
+      <br>
+ 
+ 
+      <h5>Show: Vinland Saga | Season 1 Episode 2</h5>
+
+      <p class="detail">Enjoy the audio file for Vinland Saga anime where Thorifin's dad elucidates him on one of the important aspect of his life.</p>
+
+
+      <section id="audioPage">
+         
+        <audio class="player" controls> 
+          <source src="/images/audio.mp3" />
+          <!-- fallback for browsers that don't support video tag -->
+          <a href="audio.mp3">download audio</a>
+        </audio>
+
+        <aside class="transcript collapser">
+          <h2 class="transcript__head">
+            <!--  Transcript  -->
+            <span class="sr-only">Video Transcript</span>
+            <button class="transcript-toggle">Show full transcript</button>
+          </h2>
+
+          <p><span class="timesheet">[0:01]</span>Do you want a sword?</p>
+
+          <p><span class="timesheet">[0:03]</span>Thorfin</p>
+
+          <p><span class="timesheet">[0:05]</span>A sword is a tool meant to kill</p>
+
+          <p><span class="timesheet">[0:08]</span>Why do you need it?</p>
+
+          <p><span class="timesheet">[0:10]</span>Whose life do you intend to take?</p>
+
+          <p><span class="timesheet">[0:14]</span>Your enemies?</p>
+
+          <p><span class="timesheet">[0:18]</span>Who are they?</p>
+
+          <p><span class="timesheet">[0:22]</span>well</p>
+
+          <p><span class="timesheet">[0:23]</span>bad guys like Halfdan.</p>
+
+          <p><span class="timesheet">[0:29]</span>Listen to me my son</p>
+
+          <p><span class="timesheet">[0:35]</span>(Music)</p>
+
+          <p><span class="timesheet">[0:38]</span>You don't have enemies</p>
+
+          <p><span class="timesheet">[0:41]</span>the truth is</p>
+
+          <p><span class="timesheet">[0:42]</span>that nobody has them</p>
+
+          <p><span class="timesheet">[0:45]</span>(Music)</p>
+
+          <p><span class="timesheet">[0:49]</span>Nobody in this entire world deserves to</p>
+
+          <p><span class="timesheet">[0:52]</span>get hurt</p>
+ 
+        </aside>
+      </section>
+    </main>
+
+    <script src="https://cdn.plyr.io/2.0.15/plyr.js"></script>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html
