@@ -1,0 +1,48 @@
+A/V Accessibility Research Project
+Authoring 4 - Media for Everyone
+
+
+Assignment Description
+Create and deploy a fully accessible Node/Express media application using two pieces of
+multimedia (1 audio file, 1 video file).
+Research best practices for audio, video, and special needs. What is the best option for each?
+What considerations should you make for delivery and implementation? What are the technical
+requirements?
+
+Note: YOU ARE RESPONSIBLE for defining your project deliverables in terms of accessibility
+enhancements. In other words - I am not giving you a list of things to add. YOU are, based on
+your research.
+
+There are a number of standard accessibility “pieces” that you should add for both audio and
+video. The following link is a great resource:
+https://developer.mozilla.org/en-US/docs/Web/Accessibility
+There is also an accessibilities course on LinkedIn - use that to guide your development and
+implementation efforts. Search for UX Foundations: Accessibility
+RE grading - I’m looking for standard features to be developed and included, based on the
+resources I’m supplying (and your other research). As an example - size, visual contrast,
+tabbing, Aria attributes, screen readers, closed captioning, transcripts etc are all expected to be implemented (or a reasonable combination of these features).
+
+An important note - there are lots of 3rd party solutions out there for accessibility. The goal is to understand the requirements and find or create solutions that address or meet those
+requirements. You are free to use anything you can find to help you finish the assignment,
+as long as it meets those requirements.
+You will need to design a basic, accessible interface to allow your user to navigate your app.
+You’ll also need a couple of pages that display your audio and video assets with multimedia
+controls - this is a proof-of-concept project, so branding can be minimal. The objective is to learn how to make multimedia accessible for everyone - functionality comes first.
+
+
+Use routing with Node and Express to separate your audio and video presentations / pages.
+Use one route for video, and render the appropriate assets. Do the same for your audio
+implementation.
+Each media selection must be delivered with one goal in mind: any user, regardless of
+accessibility challenges, should be able to enjoy any type of media in any application.
+Include a design / development document with your submission as your roadmap.
+
+
+Submission
+Homework must be submitted by midnight of the Saturday of Week 11 (March 25). Include the
+following:
+● Github repo: master branch with any other dev branches you feel you need
+● Research document (Google Drive doc)
+Name the dev branches appropriately per feature: des.tvr.audio, des.tvr.video,
+dev.tvr.accessibility
+Please follow correct folder and file structure as outlined in class
