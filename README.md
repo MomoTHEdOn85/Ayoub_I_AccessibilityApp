@@ -46,8 +46,8 @@ To run this web app, you will need to have:
  - Clone the project in your terminal
  - cd to your directory/download and
  - install express app -> and then node by using following commands: 
-   npm i -s express
-   npm i -s node
+   - npm i -s express
+   - npm i -s node
  - after installing, run the 'start npm' into your bash terminal or in any code editor
 
 
